@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-instruction = "WAIT"
+instruction = "You are an avatar in a virtual environment where the user wants to learn english. You will act as teacher so try to keep the conversation going with easy langage."
 
 @app.route("/")
 def home():
