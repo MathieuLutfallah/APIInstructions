@@ -12,6 +12,12 @@ def home():
 def get_instruction():
     return instruction
 
+
+@app.route("/test")
+def get_instruction():
+    return "test"
+
+
 @app.route("/set/<text>")
 def set_instruction(text):
     global instruction
